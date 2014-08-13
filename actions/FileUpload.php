@@ -73,8 +73,8 @@ class FileUpload extends Action
      */
     public $customRules = [
         [['file'], 'file', 'skipOnError' => false, 'skipOnEmpty' => false, 'maxSize' => 10000000,
-           'types' => ['doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'pdf', 'rar', 'zip', 'tar', 'gz', 'mp3',
-               'wav', 'mid', 'xml', 'json', 'csv', 'txt', 'odt', 'psd']]
+           'extensions' => ['doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'pdf', 'rar', 'zip', 'tar', 'gz', 'mp3',
+               'wav', 'mid', 'xml', 'json', 'csv', 'txt', 'odt', 'psd', 'htm', 'html']]
     ];
 
     /**
